@@ -3,7 +3,7 @@ var sortNumber = function (number){
 console.log(number);
   number.sort(function (a,b){
     console.log(a +'：'+b);
-    if(a == b){
+    if(a === b){
       return 0;
     } else {
       return a < b ? -1 : 1;
