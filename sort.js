@@ -1,4 +1,4 @@
-
+add2
 var sortNumber = function (number){
 console.log(number);
   number.sort(function (a,b){
